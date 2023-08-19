@@ -1,6 +1,7 @@
 import connectMongoDB from "@/libs/mongodb";
 import Topic from "@/models/topic";
 import { connect } from "mongoose";
+// NextResponse is an alternative to Express, it allows you to return a response from a route
 import { NextResponse } from "next/server";
 
 export async function PUT(request, { params }) {
